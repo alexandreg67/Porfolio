@@ -201,7 +201,7 @@ body {
 /* ------------------ Accueil ----------------- */
 
 .accueil {
-    background: url(/ressources/header4.jpg);
+    background: url(./ressources/header4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -474,7 +474,7 @@ p.date {
 /* --------------- Section Presentation ------------------ */
 
 .presentation {
-    background-image:  url(/ressources/Desktop\ -\ 1.svg);
+    background-image:  url(./ressources/Desktop\ -\ 1.svg);
     background-size: 100%;
     padding: 120px 120px 30px 120px;
 }
