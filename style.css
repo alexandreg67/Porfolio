@@ -475,7 +475,6 @@ h1 {
 
 
 #presentation {
-    
     padding: 80px 120px 80px 120px;
 }
 
@@ -485,6 +484,12 @@ h1 {
     padding: 40px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
+
+.presentation a {
+    display: block;
+    text-align: center;
+}
+
 .presentation h2 {
     text-align: center;
     padding-bottom: 20px;
