@@ -1,3 +1,9 @@
+// la date 
+const laDate = document.querySelector('.date')
+const dateDuJour = new Date()
+
+laDate.textContent = "Nous sommes le " + dateDuJour.toLocaleDateString()
+
 const btnMenu = document.querySelector('.btn-rond-menu');
 const nav = document.querySelector('.nav');
 const allItemNav = document.querySelectorAll('.nav-menu-item');

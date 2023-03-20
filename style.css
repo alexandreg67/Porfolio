@@ -282,7 +282,7 @@ h1 {
     width: 60px;
 }
 
-p.date {
+.date {
     margin-left: 40px;
     margin-top: 60px;
     font-size: 16px;
@@ -476,15 +476,16 @@ p.date {
 .presentation {
     background-image:  url(./ressources/Desktop\ -\ 1.svg);
     background-size: 100%;
-    padding: 120px 120px 30px 120px;
+    padding: 100px 120px 30px 120px;
 }
 
 .presentation h2 {
     text-align: center;
 }
 
-.presentation p {
+.presentation li {
     padding-top: 30px;
+    list-style-type: none;
 }
 
 
