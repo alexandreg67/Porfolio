@@ -26,7 +26,7 @@ body {
 .nav {
     width: 100%;
     height: 80px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px;
     background: #00000080;
     background-size: 100%;
     position: fixed;
@@ -496,17 +496,39 @@ h1 {
     list-style-type: none;
 }
 
+/* -------------------Media presentation -------------------- */
+
+
+@media screen and (max-width:768px) {
+    #presentation {
+        padding: 60px;
+    }
+
+    .presentation {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #presentation {
+        padding: 20px;
+    }
+
+    .presentation {
+        padding: 10px;
+    }
+}
 
 /* ------------------ Section formations -------------------- */
 
-.travail-exp {
+.formations {
     width: 100%;
     height: auto;
     margin-left: auto;
     padding-bottom: 20px;
 }
 
-.titre-travail-exp {
+.titre-formations {
     text-align: center;
     margin: 80px 0 20px;
     font-size: 40px;
@@ -592,15 +614,15 @@ h1 {
     padding-bottom: 10px;
 }
 
-/* ---- Media section travail exp ------ */
+/* ---- Media section formations ------ */
 
 @media screen and (max-width:1300px) {
     
-    .travail-exp {
+    .formations {
         width: 100%;
     }
 
-    .titre-travail-exp {
+    .titre-formations {
         margin-top: 20px;
     }
     .boule_icone_gauche {
@@ -626,7 +648,7 @@ h1 {
 
 @media screen and (max-width: 520px) {
 
-    .titre-travail-exp{
+    .titre-formations{
         font-size: 34px;
         padding-top: 30px;
     }
@@ -744,7 +766,7 @@ h1 {
     }
 
     .barre-grises {
-        width: 600px;
+        width: 100%;
     }
     
 }
@@ -755,10 +777,6 @@ h1 {
         grid-template: repeat(4, 80px) / 400px;
     }
 
-    .barre-grises {
-        width: 400px;
-    }
-    
 }
 
 @media screen and (max-width: 450px) {
@@ -781,9 +799,6 @@ h1 {
         grid-gap: 40px;
     }
 
-    .barre-grises {
-        width: 300px;
-    }
 }
 
 /* --------------- Section Portfolio ------------------- */
