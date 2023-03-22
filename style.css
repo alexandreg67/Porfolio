@@ -77,17 +77,12 @@ body {
 /* --------------- Portrait -------------------- */
 
 
-.cercle-portrait {
-    margin-top: 50px;
-    width: 100px;   
+.cercle-portrait img {
+    margin-top: 40px;
+    width: 70px;
     border-radius: 50%;
     box-shadow: 25px 25px 25px #29292940,
                 -25px -25px 25px #3d3d3d40;
-}
-
-.cercle-portrait img {
-    width: 100%;
-    border-radius: 50%;
 }
 
 .logo-cercle {
@@ -488,6 +483,7 @@ h1 {
 .presentation a {
     display: block;
     text-align: center;
+    margin-top: 40px;
 }
 
 .presentation h2 {
