@@ -28,9 +28,8 @@ body {
     height: 80px;
     padding: 0px 10px;
     background: #00000080;
-    background-size: 100%;
     position: fixed;
-    top: -80px;
+    top: 0;
     left: 0;
     display: flex;
     justify-content: space-around;
